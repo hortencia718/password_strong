@@ -1,4 +1,4 @@
-body{
+html,body{
     font-family: 'Noto Sans', sans-serif;
    display: grid;
    height:100%;
@@ -57,6 +57,8 @@ span.showBTN {
     width: 420px;
     background: rgb(213, 207, 207);
     margin-top: 0px;
+    position:center;
+  
     padding: 20px 30px;
     border-radius: 5px;
     box-shadow: 0 0 15px rgb(136, 128, 132);

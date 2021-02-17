@@ -1,8 +1,8 @@
 
-// user inputs a password , the color bar lets the user see if the pass
-// they create is "weak", "medium" and or strong
+// user inputs a password , the color bar lets the user see if the password
+// they created is "weak", "medium" and or strong
 // handle event for the color
-//  PW color should tigeer the
+//  PW color should tigger the color bar on its weakness or strong
 
 
 const indicator = document.querySelector(".indicator");
@@ -26,7 +26,7 @@ function trigger(){
 // function indicator(, weak, medium, strong){
         // if input.value == weak )
         // a weak pw would be if its less than certain value 
-        // display weak and its color  bar..
+        // display weak and its color bar..
         // else if input.value == meduim 
         // display medium and that color and based on the input value
         // else if strong display green color with message 
